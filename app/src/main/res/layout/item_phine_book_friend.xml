@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/avatar_imageView"
+        android:src="@drawable/weixin"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/avatar_imageView"
+        android:layout_toRightOf="@id/avatar_imageView"
+        android:text="@string/textView_name"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/age_text_view"
+        android:layout_below="@id/name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/avatar_imageView"
+        android:layout_toRightOf="@id/avatar_imageView"
+        android:text="@string/textView_age"
+
+        android:gravity="center_horizontal"/>
+
+</RelativeLayout>

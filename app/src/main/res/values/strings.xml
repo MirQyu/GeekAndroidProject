@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">你伤害了我~</string>
+    <string name="splash_text">启动页面, hello~</string>
+    <string name="click_to_enter">点击进入</string>
+    <string name="button_first">快点我~~</string>
+    <string name="button_second">呃..我想想</string>
+    <string name="hello_world_text">Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!</string>
+    <string name="phone_friend">通讯本</string>
+    <string name="textView_name">显示名字哟</string>
+    <string name="textView_phone">显示电话哟</string>
+    <string name="textView_age">显示年龄yo</string>
+    <string name="data_counts">数据条数:</string>
+</resources>
